@@ -53,7 +53,7 @@ function validarDia(){
         
     let fechaActual = dia + "-" + mes + "-" + anio;
 
-    if(formato(fecha.value) < (dia + mes + anio){
+    if(formato(fecha.value) < (dia + mes + anio)){
         alert(`La fecha debe ser: ${fechaActual} o mayor`);
  
     }else{
