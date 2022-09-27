@@ -26,6 +26,7 @@ header{
 
 
 header .filter-header{
+    max-width: 100%;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -391,3 +392,29 @@ footer a:hover{
     height: 100vh;
 
 }
+
+@media (min-width: 768px) { 
+    header .filter-header{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(3, 22, 44, 0.616);
+        
+    }
+
+}
+
+@media (min-width: 576px) { 
+    header .filter-header{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(3, 22, 44, 0.616);
+        
+    }
+    }
+    
