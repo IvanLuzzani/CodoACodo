@@ -193,7 +193,11 @@ header nav a:hover,
 
 
 }
-
+@media (max-width: 468px){
+    .menu-entrada-container{
+      display: flex;
+      flex-direction: column;
+    }
 
 .item-menu {
     margin-top: 4rem;
