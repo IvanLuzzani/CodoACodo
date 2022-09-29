@@ -68,17 +68,15 @@ header nav {
     display: flex;
     flex-direction: row;
 
-
 }
 
-
 header nav a,
-#reserva nav a {
-    border-radius: 80%;
+.reserva nav a {
+    border-radius: 3%;
     padding: 1.1rem;
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.454);
     text-decoration: none;
     display: block;
     color: black;
