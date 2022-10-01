@@ -70,6 +70,11 @@ header nav {
 
 }
 
+#boton-menu {
+    padding: 1rem 37px ;
+
+}
+
 header nav a,
 .reserva nav a {
     border-radius: 3%;
@@ -137,9 +142,7 @@ header nav a:hover,
     transform: scale(1.1);
 }
 
-
 #menu .img {
-
     padding: 2rem;
     margin-top: 3rem;
 }
@@ -147,7 +150,7 @@ header nav a:hover,
 #menu img {
     width: 45rem;
     height: 25rem;
-
+    position: center;
 }
 
 .menu-seccion {
@@ -388,8 +391,6 @@ footer a:hover {
 .btn-flotante i {
     font-size: 2rem;
 }
-
-
 
 
 /* Respuesta */
