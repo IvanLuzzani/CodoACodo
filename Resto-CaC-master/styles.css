@@ -151,6 +151,16 @@ header nav a:hover,
     height: 25rem;
     position: center;
 } */
+
+
+img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        margin-top: 5%;
+    }
+
+
 #navmenus {
     display: flex;
     justify-content: space-around;
