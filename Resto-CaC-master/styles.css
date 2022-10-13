@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Raleway:wght@400;600;800&display=swap');
 
-
-
 * {
     margin: 0;
     box-sizing: border-box;
@@ -10,7 +8,6 @@
     font-family: 'Libre Baskerville', serif;
 
 }
-
 
 body {
     background-color: #dee1e6b0;
@@ -24,8 +21,6 @@ header {
     background-position: center;
 
 }
-
-
 
 header .filter-header {
     display: flex;
@@ -116,8 +111,6 @@ header nav a:hover,
     background-color: rgb(231, 64, 8);
 }
 
-
-
 #container-menu a h3 {
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
@@ -140,26 +133,12 @@ header nav a:hover,
     transform: scale(1.1);
 }
 
-/* #menu.img {
-    padding: 2rem;
-    margin-top: 3rem;
-    rotate: 90deg;
-}
-
-#menu img {
-    width: 45rem;
-    height: 25rem;
-    position: center;
-} */
-
-
 img {
         max-width: 100%;
         height: auto;
         width: auto;
         margin-top: 5%;
     }
-
 
 #navmenus {
     display: flex;
@@ -178,7 +157,6 @@ img {
 #menu .solo {
     margin: 0 15rem;
 }
-
 
 .menu-seccion h3 {
     font-size: 2.5rem;
