@@ -70,6 +70,11 @@ header nav {
 
 }
 
+#boton-menu {
+    padding: 1rem 37px ;
+
+}
+
 header nav a,
 .reserva nav a {
     border-radius: 3%;
@@ -118,8 +123,6 @@ header nav a:hover,
     font-family: 'Raleway', sans-serif;
     background-color: white;
     text-decoration: none;
-    margin-right: 2rem;
-    margin-top: 1rem;
     font-weight: bold;
     padding: 0.8rem;
     display: inline-block;
@@ -137,17 +140,30 @@ header nav a:hover,
     transform: scale(1.1);
 }
 
-
-#menu .img {
-
+/* #menu.img {
     padding: 2rem;
     margin-top: 3rem;
+    rotate: 90deg;
 }
 
 #menu img {
     width: 45rem;
     height: 25rem;
+    position: center;
+} */
 
+
+img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        margin-top: 5%;
+    }
+
+
+#navmenus {
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu-seccion {
@@ -162,6 +178,7 @@ header nav a:hover,
 #menu .solo {
     margin: 0 15rem;
 }
+
 
 .menu-seccion h3 {
     font-size: 2.5rem;
@@ -388,8 +405,6 @@ footer a:hover {
 .btn-flotante i {
     font-size: 2rem;
 }
-
-
 
 
 /* Respuesta */
