@@ -281,6 +281,13 @@ img {
 
 }
 
+
+@media (max-width: 1024px){
+    #formulario form{
+        border: 6px solid rgb(231, 64, 8);
+    }
+}
+
 .parte-form {
     display: flex;
     flex-direction: column;
@@ -395,6 +402,11 @@ footer a:hover {
     font-size: 2rem;
 }
 
+#map {
+	height: 500px;
+	width: 100%;
+    border: 6px solid rgb(231, 64, 8);
+}
 
 /* Respuesta */
 
